@@ -1,0 +1,21 @@
+<HTML>
+	<HEAD>
+		<TITLE>五子棋</TITLE>
+		<META HTTP-EQUIV="Content-Type" CONTENT="Text/HTML; Charset=GB2312">
+	</HEAD>
+	<BODY>
+	</BODY>
+	<SCRIPT LANGUAGE="VBScript">
+		Sub Window_OnLoad()
+			If Screen.Width < 800 Or Screen.Height < 600 Then
+				MsgBox "请使用800X600或更高分辨率浏览本页"
+			Else
+				If Screen.Width = 800 And Screen.Height = 600 Then
+					Window.Open "Gobang.html", "Gobang", "FullScreen = Yes"
+				Else
+					Window.Open "Gobang.html", "Gobang", "Toolbar = False, Location = False, Directories = False, Status = False, Left = 0, Top = 0, Width = 800, Height = 600"
+				End If
+			End If
+		End Sub
+	</SCRIPT>
+</HTML>

@@ -1,0 +1,9 @@
+WZQ.FRM
+WZQ.BAS
+DISPLAY.FRM
+ProjWinSize=152,402,248,215
+ProjWinShow=2
+IconForm="Main"
+Title="Îå×ÓÆå"
+ExeName="WZQ.EXE"
+;1996/11/16

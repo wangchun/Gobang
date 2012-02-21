@@ -1,0 +1,14 @@
+[FILES]
+WZQ4.RTF
+
+[MAP]
+#define CONTENTS 0
+#define SUMMARIZE 1
+#define OPERATION 2
+#define NEW 3
+#define HISTORY 4
+#define COMPUTER 5
+#define INPUT 6
+#define KEY 7
+#define THINK 8
+#define WAIT 9
